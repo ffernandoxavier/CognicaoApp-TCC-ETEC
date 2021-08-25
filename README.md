@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/img/logo001" width="400"></a></p>
+<p align="center"><img src="public/img/logo001" width="1600"></a></p>
 
 
 ## About Laravel
