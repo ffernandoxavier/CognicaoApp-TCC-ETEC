@@ -32,20 +32,15 @@
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav ">
                 <li class="nav-item">
-                    <a class="nav-link active smoth-scroll" href=".banner-area">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active smoth-scroll" href="welcome">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smoth-scroll" href="#intro">Benefits</a>
+                    <a class="nav-link smoth-scroll" href="instituicao">Instituição</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smoth-scroll" href="#about">About</a>
+                    <a class="nav-link smoth-scroll" href="acesso">Acesso</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link smoth-scroll" href="#service">Service</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link smoth-scroll" href="#pricing">Pricing</a>
-                </li>
+
             </ul>
         </div>
     </div>
