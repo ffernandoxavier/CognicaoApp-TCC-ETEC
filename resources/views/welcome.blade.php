@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layout.main2')
 
 @section('tile', 'MAPEIAMENTE')
 

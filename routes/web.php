@@ -21,8 +21,8 @@ Route::get('/instituicao', function () {
     return view('instituicao');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/acesso', function () {
+    return view('acesso');
 });
 
 Route::get('/cadastro', function () {

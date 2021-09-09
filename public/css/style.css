@@ -322,9 +322,9 @@ h5.subtitle {
 }
 
 .brown-overlay {
-  background: #222955;
-  opacity: .97;
-}
+    background: #222955;
+    opacity: .97;
+  }
 
 .feature-overlay {
   background: #635CDB;
@@ -333,7 +333,7 @@ h5.subtitle {
 
 .gr-overlay {
   background: linear-gradient(135deg, #2f1ce0 0%, #53a0fd 30%, #51eca5 100%);
-  opacity: .87;
+  opacity: 0.80;
 }
 
 /* ========================
@@ -405,7 +405,7 @@ h5.subtitle {
 }
 
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
-  color: rgb(48, 210, 231);
+  color: rgb(255, 255, 255);
 }
 
 .trans-navigation {
@@ -534,29 +534,34 @@ h5.subtitle {
 }
 
 .banner-content .banner-title {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   line-height: 50px;
+  position: relative;
+  z-index: 10;
 }
 
 .banner-content .subtitle {
-  color: #fff;
-  background: #635CDB;
+  color: rgb(0, 0, 0);
   display: inline-block;
   padding: 3px 8px;
   margin-bottom: 20px;
   text-transform: uppercase;
+
 }
 
 .subtitle {
-  color: #635CDB;
+  color: #000000;
+
 }
 
 .banner-content p {
   margin: 20px 0px;
-  color: #eee;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   line-height: 30px;
+  position: relative;
+  z-index: 10;
 }
 
 .banner-content .btn {
@@ -568,7 +573,7 @@ h5.subtitle {
 }
 
 .banner-1 {
-  background: url("../images/banner/bg-2.jpg");
+  background: url();
   background-size: cover;
   position: relative;
 }
@@ -599,7 +604,6 @@ INner Pages
 }
 
 .page-banner-area {
-  background: url("../images/banner/1.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
