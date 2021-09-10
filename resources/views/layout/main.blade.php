@@ -20,7 +20,7 @@
     <body data-spy="scroll" data-target=".fixed-top">
         <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
         <div class="container">
-        <a class="navbar-brand" href="welcome">
+        <a class="navbar-brand" href="/">
             <img src="img/logo002.png" alt="" class="img-fluid b-logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav ">
                 <li class="nav-item">
-                    <a class="nav-link active smoth-scroll" href="welcome">Home</a>
+                    <a class="nav-link active smoth-scroll" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link smoth-scroll" href="instituicao">Instituição</a>
