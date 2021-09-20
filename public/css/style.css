@@ -385,7 +385,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white {
-  background: #111;
+  background: rgb(0, 0, 0);
 }
 
 .trans-navigation.header-white .navbar-nav .nav-link {
@@ -1380,7 +1380,7 @@ BLOG SINGLE
     padding: 10px 0px;
   }
   .trans-navigation {
-    background: #232323;
+    background: #000000;
   }
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
@@ -1557,7 +1557,7 @@ BLOG SINGLE
     padding: 10px 0px;
   }
   .trans-navigation {
-    background: #232323;
+    background: #000000;
     padding: 20px 15px;
   }
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
