@@ -17,6 +17,7 @@
         <script src="/js/script.js"></script>
         
     </head>
+    <!-- CABEÇALHO -->
     <body data-spy="scroll" data-target=".fixed-top">
         <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
         <div class="container">
@@ -45,5 +46,20 @@
          </div>
          </div>
         </nav>
+
+
+    <!-- Footer -->
+    <section id="footer" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer-copy">
+                    © 2021 Mapeiamente. TODOS OS DIREITOS RESERVADOS.
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
     </body>
 </html>
