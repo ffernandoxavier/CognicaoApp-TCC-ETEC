@@ -21,8 +21,8 @@ Route::get('instituicao', function () {
     return view('instituicao');
 });
 
-Route::get('cadastro', function () {
-    return view('cadastro');
+Route::get('register', function () {
+    return view('register');
 });
 
 Route::get('/dashboard', function () {
