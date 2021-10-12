@@ -39,7 +39,7 @@
                     <a class="nav-link smoth-scroll" href="instituicao">Instituição</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smoth-scroll" href="acesso">Cadastro</a>
+                    <a class="nav-link smoth-scroll" href="cadastro">Cadastro</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link smoth-scroll" href="dashboard">Acesso</a>
