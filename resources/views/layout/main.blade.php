@@ -28,7 +28,7 @@
             <span class="navbar-toggler-icon">
                 <i class="fa fa-bars"></i>
             </span>
-          </button>
+          </button>s
 
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav ">
@@ -39,7 +39,10 @@
                     <a class="nav-link smoth-scroll" href="instituicao">Instituição</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smoth-scroll" href="acesso">Acesso</a>
+                    <a class="nav-link smoth-scroll" href="acesso">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoth-scroll" href="password.confirm">Acesso</a>
                 </li>
 
              </ul>
