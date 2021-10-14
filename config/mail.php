@@ -13,8 +13,7 @@ return [
     |
     */
 
-    'default' => env('MAIL_MAILER', 'smtp'),
-
+    'default' => env('MAIL_DRIVER',' smtp'),
     /*
     |--------------------------------------------------------------------------
     | Mailer Configurations
@@ -37,10 +36,10 @@ return [
         'smtp' => [
             'transport' => 'smtp',
             'host' => env('MAIL_HOST', 'smtp.gmail.com'),
-            'port' => env('MAIL_PORT', 465),
-            'encryption' => env('MAIL_ENCRYPTION', 'STARTTLS'),
-            'username' => env('claudio.custodio61@gmail.com'),
-            'password' => env('k1a2c3a4k5'),
+            'port' => env('MAIL_PORT','587'),
+            'encryption' => env('MAIL_ENCRYPTION','tls'),
+            'username' => env('MAIL_USERNAME','claudio.custodio61@gmail.com'),
+            'password' => env('MAIL_PASSWORD','hvmpuuwddrfbkdhr'),
             'timeout' => null,
             'auth_mode' => null,
         ],
