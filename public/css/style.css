@@ -1666,6 +1666,15 @@ BLOG SINGLE
   .pricing-block {
     margin-bottom: 30px;
   }
+
+  .half-box{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+  }
 }
 
 /*# sourceMappingURL=maps/style.css.map */
