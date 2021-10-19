@@ -27,8 +27,23 @@
 
                         <div class="half-box">
                             <label for ="escolaridade">Escolaridade</label><br>
-                            <input type="date" name="escolaridade" id="escolaridade" placeholder="Digite seu sobrenome">
-                        </div>
+                            <select>
+                                <option value="1">Fundamental Completo</option>
+                                <option value="2">Fundamental Incompleto</option>
+                                <option value="3">Médio Completo</option>
+                                <option value="4"> Médio Incompleto</option>
+                                <option value="5">Superior Completo</option>
+                                <option value="6">Superior Incompleto</option>
+                            </select>
+                        </div><br>
+
+                        <div class="half-box">
+                            <label for ="sexo">Sexo</label><br>
+                            <input type="radio" name="sexo" id="sexo" >
+                            <label for ="sexo">Masculino</label><br>
+                            <input type="radio" name="sexo" id="sexo">
+                            <label for ="sexo">Feminino</label><br>
+                        </div><br>
 
                         <div class="half-box">
                             <label for ="datanasc">Data de Nascimento</label><br>
