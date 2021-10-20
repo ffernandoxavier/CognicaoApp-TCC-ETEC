@@ -29,4 +29,8 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::get('/completecadastro', function () {
+    return view('completecadastro');
+})->middleware(['auth'])->name('completecadastro');
+
 require __DIR__.'/auth.php';

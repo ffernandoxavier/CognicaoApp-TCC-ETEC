@@ -5,16 +5,16 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                        <img src="img/logo002.png" alt="" class="img-fluid b-logo " width="100" height="auto" >
-                   
+                        <img src="img/logo002.png" alt="" class="img-fluid b-logo " width="100" height="100" >
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+               <!--
+                   <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('CADASTRO DE PERFIL') }}
                     </x-nav-link>
-                </div>
+                </div> -->
             </div>
 
             <!-- Settings Dropdown -->
