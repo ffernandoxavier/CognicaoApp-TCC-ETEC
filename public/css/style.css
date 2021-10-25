@@ -1677,6 +1677,28 @@ BLOG SINGLE
   }
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+#geral {
+  width: 300px;
+}
 
+#imgseta {
+  position: absolute; 
+	left: 575px; /* posiciona a 90px para a esquerda */ 
+	top: 300px; /* posiciona a 70px para baixo */
+}
 
+#cx1 {
+  position: absolute; 
+	left: 575px;
+	top: 230px;
+  font-size: 100px;
+  color:rgb(0, 0, 0);
+}
+
+#cx2 {
+  position: absolute; 
+	left: 325px;
+	top: 300px;
+  font-size: 50px;
+  color:rgb(0, 0, 0);
+}
