@@ -2,7 +2,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class=" overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-blue-500">
-                Complete seu perfil para realizar os testes!
+                Complete seu perfil para realizar os!
                 </div><br>
 
             <form method="GET" class="form21">
