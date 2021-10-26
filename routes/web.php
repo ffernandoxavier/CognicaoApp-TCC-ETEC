@@ -29,6 +29,9 @@ Route::get('/abertura', function () {
     return view('abertura');
 });
 
+Route::get('/teste1', function () {
+    return view('teste1');
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
