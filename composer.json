@@ -7,10 +7,12 @@
     "require": {
         "php": "^7.3|^8.0",
         "fruitcake/laravel-cors": "^2.0",
+        "geekcom/validator-docs": "^3.5",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
+        "laravellegends/pt-br-validator": "^8.0",
         "phpmailer/phpmailer": "^6.5"
     },
     "require-dev": {

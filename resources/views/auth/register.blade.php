@@ -20,6 +20,54 @@
                 <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
             </div>
 
+            <!-- Sobrenome -->
+            <div>
+                <x-label for="sobrenome" :value="__('Sobrenome')" />
+
+                <x-input id="sobrenome" class="block mt-1 w-full" type="text" name="sobrenome" :value="old('sobrenome')" required />
+            </div>
+
+            <!-- cpf -->
+            <div>
+                <x-label for="cpf" :value="__('CPF')" />
+
+                <x-input id="cpf" class="block mt-1 w-full" type="text" name="cpf" :value="old('cpf')" required />
+            </div>
+
+            <!-- sexo -->
+            <div>
+                <x-label for="sexo" :value="__('Sexo')" />
+                <x-input id="sexo" class="block mt-1 w-full" type="text" name="sexo" :value="old('sexo')" required />
+
+                            <!--<input type="radio" name="sexo" id="sexo" >
+                            <label for ="sexo">Masculino</label><br>
+                            <input type="radio" name="sexo" id="sexo">
+                            <label for ="sexo">Feminino</label><br> -->
+            </div>
+
+            <!-- Escolaridade -->
+            <div>
+                <x-label for="escolaridade" :value="__('Escolaridade')" />
+                <!-- <x-input id="escolaridade" class="block mt-1 w-full" type="text" name="escolaridade" :value="old('escolaridade')" required /> -->
+                <select id="escolaridade" class="block mt-1 w-full" type="text" name="escolaridade" :value="old('escolaridade')" required >
+                                <option value="1">Fundamental Completo</option>
+                                <option value="2">Fundamental Incompleto</option>
+                                <option value="3">Médio Completo</option>
+                                <option value="4"> Médio Incompleto</option>
+                                <option value="5">Superior Completo</option>
+                                <option value="6">Superior Incompleto</option>
+                            </select>
+            </div>
+
+                <!-- data nascimento -->
+                <div>
+                <x-label for="dtnasc" :value="__('Data Nascimento')" />
+                <x-input id="dtnascimento" class="block mt-1 w-full" type="date" name="dtnascimento" :value="old('dtnascimento')" required />
+
+            </div>
+
+
+
             <!-- Email Address -->
             <div class="mt-4">
                 <x-label for="email" :value="__('Email')" />
