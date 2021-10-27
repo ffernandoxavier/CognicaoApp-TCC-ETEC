@@ -25,13 +25,6 @@ Route::get('register', function () {
     return view('register');
 });
 
-Route::get('/abertura', function () {
-    return view('abertura');
-});
-
-Route::get('/teste1', function () {
-    return view('teste1');
-});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
@@ -40,4 +33,18 @@ Route::get('/completecadastro', function () {
     return view('completecadastro');
 })->middleware(['auth'])->name('completecadastro');
 
+Route::get('/abertura', function () {
+    return view('abertura');
+})->middleware(['auth'])->name('abertura');
+
+Route::get('/teste1', function () {
+    return view('teste1');
+})->middleware(['auth'])->name('teste1');
+
+Route::get('/teste2', function () {
+    return view('teste2');
+})->middleware(['auth'])->name('teste2');
+
 require __DIR__.'/auth.php';
+
+

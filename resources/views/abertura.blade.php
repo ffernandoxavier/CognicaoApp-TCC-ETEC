@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="/css/estilo.css"> 
 </head>
 <body>
-  <main>
-    <p id="cx1">OLÁ</p>
+  <main id="abertura">
+    <div id="cx1" >Olá, {{ Auth::user()->name }}</div>
+    </div>
     <p id="cx2">Vamos dar inicio ao nosso teste!</p>
-    <div id="imgseta">
+  </main>
+  <div id="imgseta">
       <a href="teste1" ><img src="img/seta.png"></a>
     </div>
-  </main>
 </body>
 </html>

@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="/css/estilo.css"> 
 </head>
 <body>
-<p id="teste1cx">Para começar selecione o DIA, MÊS e ANO, que você está realizando o teste.</p>
+  <main>
+  <p id="teste1cx">Para começar selecione o DIA, MÊS e ANO,</p>
+  <p id="teste2cx"> que você está realizando o teste.</p>
+  </main>
   <main id="flex-centralizado">
   <div class="half-box">
   <label for ="DIA"> DIA </label><br>
-     <select style="width:150px; color: black; text-align:center">
+     <select name="format" id="format" style="width:100px; color: black; text-align:center;">
       <option value="0"></option>
       <option value="1">1</option>
       <option value="2">2</option>
@@ -49,7 +52,7 @@
   </div>
   <div class="half-box">
   <label for ="MÊS"> MÊS </label><br>
-     <select style="width:150px; text-align:center">
+     <select style="width:100px; text-align:center;">
       <option value="0"></option>
       <option value="1">1</option>
       <option value="2">2</option>
@@ -67,7 +70,7 @@
   </div>
   <div class="half-box">
   <label for ="ANO"> ANO </label><br>
-     <select style="width:150px; text-align:center">
+     <select style="width:100px text-align:center;">
       <option value="0"></option>
       <option value="2010">2010</option>
       <option value="2011">2011</option>
@@ -85,7 +88,7 @@
   </div>
   </main>
   <div id="imgseta1">
-      <a href="teste1" ><img src="img/seta.png"></a>
+      <a href="teste2" ><img src="img/seta.png"></a>
   </div>
 </body>
 </html>
