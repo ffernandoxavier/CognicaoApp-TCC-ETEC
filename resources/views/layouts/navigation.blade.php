@@ -8,7 +8,7 @@
                         <img src="img/logo002.png" alt="" class="img-fluid b-logo " width="100" height="100" >
                 </div>
 
-                <!-- Navigation Links -->
+                <!-- Link de navegação -->
                <!--
                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
