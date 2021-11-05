@@ -13,7 +13,7 @@
   <p id="teste2cx"> que você está realizando o teste.</p>
   </main>
   <main>
-    <form name="teste11" action='#' method='get'>
+    <form name="teste11" action='/teste2' method='get'>
       <div class="half-box">
         <label for ="DIA" > DIA </label>
           <select name="f_dia" required id="format" style="width:100px; color: black; text-align:center;">
