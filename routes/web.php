@@ -49,6 +49,14 @@ Route::get('/teste3', function () {
     return view('teste3');
 })->middleware(['auth'])->name('teste3');
 
+Route::get('/teste4', function () {
+    return view('teste4');
+})->middleware(['auth'])->name('teste4');
+
+Route::get('/teste5', function () {
+    return view('teste5');
+})->middleware(['auth'])->name('teste5');
+
 require __DIR__.'/auth.php';
 
 

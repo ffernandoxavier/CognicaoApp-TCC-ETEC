@@ -13,7 +13,7 @@
     <p id="textt2">Qual o dia da semana que estamos?</p>
     <br>
         <div class="custom-radio">
-            <input id="radio-1" name="semana" value="1" type="radio" /> 
+            <input id="radio-1" name="semana" value="1" type="radio" required /> 
             <label id="txtrb" for="radio-1"> Domingo </label>
         </div>
         <div class="custom-radio">
