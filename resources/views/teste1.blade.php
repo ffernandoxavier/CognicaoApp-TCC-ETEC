@@ -49,7 +49,7 @@
             <option value="29">29</option>
             <option value="30">30</option>
             <option value="31">31</option>
-          </select>
+          </select>   
       </div>
       <div class="half-box">
         <label for ="MÊS" > MÊS </label>
@@ -87,6 +87,7 @@
           <option value="2021">2021</option>
         </select>
       </div>
+      <!--<button class="form2" type="submit" name="form2enviar">Enviar</button>-->
       <input class="form2" type="submit" name="form2enviar" value="Enviar">
     </form>
   </main>

@@ -40,7 +40,6 @@ main {
   #cx1 {
     text-align:center;
     font-size: 50px;
-    font-family: fantasy;
     color:#000000;
     margin: auto;
   }
@@ -48,7 +47,6 @@ main {
   #cx2 {
     text-align:center;
     font-size: 40px;
-    font-family: fantasy;
     color:#000000;
     margin: auto;
   }
@@ -71,20 +69,17 @@ main {
     font-size: 30px;
     padding: 20;
     box-sizing: border-box;
-    font-family: fantasy;
     color: #000000;
   }
 #teste1cx {
     text-align:center;
     font-size: 30px;
-    font-family:fantasy;
     color:#000000;
     margin: auto;
 }
 #teste2cx {
   text-align:center;
   font-size: 30px;
-  font-family: fantasy;
   color:#000000;
   margin: auto;
 }
@@ -125,14 +120,12 @@ main {
 #textt2{
   text-align:center;
   font-size: 30px;
-  font-family: fantasy;
   color:#000000;
   margin: auto;
 }
 
 #txtrb{
-  font-size: 18px;
-  font-family: fantasy;
+  font-size: 28px;
 }
 
 select {
@@ -187,6 +180,5 @@ select::-ms-expand {
   padding-left: 5px;
   box-sizing: border-box;
   font-size: 20px;
-  font-family: fantasy;
   cursor:pointer;
   }

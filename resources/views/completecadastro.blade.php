@@ -25,11 +25,7 @@
                         </div><br>
 
                         <div class="half-box">
-                            <label for ="sexo">Sexo</label><br>
-                            <input type="radio" name="sexo" id="sexo" >
-                            <label for ="sexo">Masculino</label><br>
-                            <input type="radio" name="sexo" id="sexo">
-                            <label for ="sexo">Feminino</label><br>
+                            
                         </div><br>
 
                         <div class="half-box">
