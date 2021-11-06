@@ -13,8 +13,6 @@
     </div>
     <p id="cx2">Vamos dar inicio ao nosso teste!</p>
   </main>
-  <div id="imgseta">
-      <a href="teste1" ><img src="img/seta.png"></a>
-    </div>
+      <a href="teste1" ><img src="img/seta.png" class="imgseta"></a>
 </body>
 </html>

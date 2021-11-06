@@ -9,7 +9,13 @@
 </head>
 <body>
     <main>
-
+        <form name="teste5" action='/teste6' method='get'>
+        <p id="textt5">Escreva a frase que você leu na tela anterior:</p>
+        <input class= "input5" name="resposta5" placeholder="Digite aqui:" required/> 
+        <br>
+        <br>
+        <button class="form2" type="submit" name="form5enviar">Enviar</button>
+        </form>
     </main>
 </body>
 </html>
