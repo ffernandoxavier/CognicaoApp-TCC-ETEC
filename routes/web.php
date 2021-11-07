@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Teste1Controller;
+use App\Models\Teste1;
+use Illuminate\Contracts\Cache\Store;
 use Illuminate\Support\Facades\Route;
 
 /*
