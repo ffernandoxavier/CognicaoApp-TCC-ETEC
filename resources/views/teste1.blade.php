@@ -13,7 +13,8 @@
   <p id="teste2cx"> que você está realizando o teste.</p>
   </main>
   <main>
-    <form name="teste1" action='/teste2' method='get'>
+    <form name="teste1" action='/sal-teste1' method='post'>
+      @csrf
       <div class="half-box">
         <label for ="DIA" > DIA </label>
           <select name="f_dia" required id="format" style="width:100px; color: black; text-align:center;">
@@ -88,7 +89,8 @@
         </select>
       </div>
       <!--<button class="form2" type="submit" name="form2enviar">Enviar</button>-->
-      <input class="form2" type="submit" name="form2enviar" value="Enviar">
+      <!-- <input class="form2" type="submit" name="form2enviar" value="Enviar">-->
+      <button> Enviar </button>
     </form>
   </main>
 </body>

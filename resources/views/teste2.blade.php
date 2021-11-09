@@ -9,7 +9,7 @@
 </head>
 <body>
     <main class="main-main">
-    <form name="teste11" action='\teste3' method='get'>
+    <form name="teste11" action='\teste3' method='post'>
     <p id="textt2">Qual o dia da semana que estamos?</p>
     <br>
         <div class="custom-radio">

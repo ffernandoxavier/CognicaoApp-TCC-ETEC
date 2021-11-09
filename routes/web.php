@@ -4,6 +4,7 @@ use App\Http\Controllers\Teste1Controller;
 use App\Models\Teste1;
 use Illuminate\Contracts\Cache\Store;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -72,6 +73,9 @@ Route::get('/agradecimentos', function () {
     return view('agradecimentos');
 })->middleware(['auth'])->name('agradecimentos');
 
+Route::post('/sal-teste1', function (Request $request) {
+    dd($request->all());
+});
 require __DIR__.'/auth.php';
 
 
