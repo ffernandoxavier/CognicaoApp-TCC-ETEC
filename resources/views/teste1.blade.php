@@ -13,7 +13,7 @@
   <p id="teste2cx"> que você está realizando o teste.</p>
   </main>
   <main>
-    <form name="teste1" action='/sal-teste1' method='post'>
+    <form name="teste1" action='/teste2' method='post'>
       @csrf
       <div class="half-box">
         <label for ="DIA" > DIA </label>

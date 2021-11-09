@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTeste1sTable extends Migration
+class CreateTemposTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class CreateTeste1sTable extends Migration
      */
     public function up()
     {
-        Schema::create('teste1', function (Blueprint $table) {
+        Schema::create('tempos', function (Blueprint $table) {
             $table->id();
-            $table->foreign('id')->references('id')->on('users');
-            $table->date('dia');
-            $table->date('mes');
-            $table->date('ano');
+            $table->string('dia');
+            $table->string('mes');
+            $table->string('ano');
             $table->timestamps();
         });
     }
@@ -30,6 +29,6 @@ class CreateTeste1sTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('teste1s');
+        Schema::dropIfExists('tempos');
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\Teste1Controller;
-use App\Models\Teste1;
+use App\Models\Tempo;
 use Illuminate\Contracts\Cache\Store;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
@@ -73,8 +73,14 @@ Route::get('/agradecimentos', function () {
     return view('agradecimentos');
 })->middleware(['auth'])->name('agradecimentos');
 
-Route::post('/sal-teste1', function (Request $request) {
-    dd($request->all());
+Route::post('/teste2', function (Request $request) {
+    Tempo::create([
+        'dia' => $request->f_dia,
+        'mes'=> $request->f_mes,
+        'ano'=>$request->f_ano
+    ]);
+
+    return view('/teste2');
 });
 require __DIR__.'/auth.php';
 
