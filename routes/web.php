@@ -68,6 +68,10 @@ Route::get('/teste7', function () {
     return view('teste7');
 })->middleware(['auth'])->name('teste7');
 
+Route::get('/agradecimentos', function () {
+    return view('agradecimentos');
+})->middleware(['auth'])->name('agradecimentos');
+
 require __DIR__.'/auth.php';
 
 

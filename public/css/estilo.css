@@ -258,8 +258,33 @@ img{
   margin-top: auto;
 }
 
+.mainagr{
+  
+    background-color: #ffffff;
+    padding:10px;
+    border-radius: 10px;
+
+    min-width: 320px;
+    max-width: 950px;
+    margin: 70 auto;
+
+}
+
 /* style all elements with a required attribute 
 :required {
   background: red;
 }
 */
+.texttagr{
+  font-size: 25px;
+  color:#000000;
+  margin-top: auto;
+  text-align:center;
+}
+
+.texttagr1{
+  font-size: 25px;
+  color:#000000;
+  margin-top: auto;
+  text-align:center;
+}

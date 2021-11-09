@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <form name="teste5" action='#' method='get'>
+        <form name="teste5" action='/agradecimentos' method='get'>
         <p id="textt7">Você se lembra das cores que pedimos para decorar no ínicio do teste?</p>
         <p id="textt7">Agora queremos que você escreva as cores na mesma ordem que foi pedido para decorar!</p>
         <input name="resposta71" placeholder="Digite aqui:" required class="div71"/> 
