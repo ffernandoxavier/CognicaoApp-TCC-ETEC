@@ -88,9 +88,7 @@
           <option value="2021">2021</option>
         </select>
       </div>
-      <!--<button class="form2" type="submit" name="form2enviar">Enviar</button>-->
-      <!-- <input class="form2" type="submit" name="form2enviar" value="Enviar">-->
-      <button> Enviar </button>
+      <input class="form2" type="submit" name="form2enviar" value="Enviar">
     </form>
   </main>
 </body>
