@@ -9,7 +9,8 @@
 </head>
 <body>
     <main>
-        <form name="teste5" action='/teste6' method='get'>
+        <form name="teste5" action='/teste6' method='POST'>
+        @csrf
         <p id="textt5">Escreva a frase que você leu na tela anterior:</p>
         <input class= "input5" name="resposta5" placeholder="Digite aqui:" required/> 
         <br>

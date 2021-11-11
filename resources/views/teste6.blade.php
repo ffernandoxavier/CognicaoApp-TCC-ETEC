@@ -9,7 +9,8 @@
 </head>
 <body>
     <main>
-    <form name="teste11" action='\teste7' method='get'>
+    <form name="teste11" action='/teste7' method='post'>
+    @csrf
     <p id="textt2">Escreva o nome das figuras:</p>
     <br>
     <br>

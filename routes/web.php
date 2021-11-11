@@ -2,9 +2,13 @@
 
 use App\Http\Controllers\Teste1Controller;
 use App\Models\Tempo;
+use App\Models\Semana;
 use Illuminate\Contracts\Cache\Store;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use App\Models\Frase;
+use App\Models\Objeto;
+use App\Models\Cor;
 
 /*
 |--------------------------------------------------------------------------
@@ -82,6 +86,46 @@ Route::post('/teste2', function (Request $request) {
 
     return view('/teste2');
 });
+
+Route::post('/teste3', function (Request $request) {
+    Semana::create([
+        'dia' => $request->semana
+    ]);
+
+    return view('/teste3');
+});
+
+Route::post('/teste6', function (Request $request) {
+    Frase::create([
+        'frase' => $request->resposta5
+    ]);
+
+    return view('/teste6');
+});
+
+Route::post('/teste7', function (Request $request) {
+    Objeto::create([
+        'res1' => $request->resposta61,
+        'res2'=> $request->resposta62,
+        'res3'=> $request->resposta63,
+        'res4'=> $request->resposta64,
+        'res5'=> $request->resposta65,
+        'res6'=> $request->resposta66
+    ]);
+
+    return view('/teste7');
+});
+
+Route::post('/agradecimentos', function (Request $request) {
+    Cor::create([
+        'cor1' => $request->resposta71,
+        'cor2' => $request->resposta81,
+        'cor3' => $request->resposta91
+    ]);
+
+    return view('/agradecimentos');
+});
+
 require __DIR__.'/auth.php';
 
 
