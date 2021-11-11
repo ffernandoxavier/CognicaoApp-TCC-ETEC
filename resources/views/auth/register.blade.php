@@ -100,7 +100,7 @@
                 </a>
 
                 <x-button class="ml-4">
-                    {{ __('Cadastrar') }}
+                     {{ __('Cadastrar') }}
                 </x-button>
             </div>
         </form>

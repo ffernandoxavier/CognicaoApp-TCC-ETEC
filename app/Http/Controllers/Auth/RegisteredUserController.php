@@ -51,7 +51,7 @@ class RegisteredUserController extends Controller
             'dtnascimento'=>$request->dtnascimento,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-        ]);
+        ])->givePermissionTo('userpadrao');
 
         event(new Registered($user));
 
