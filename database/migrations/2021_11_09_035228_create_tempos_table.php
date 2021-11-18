@@ -15,8 +15,6 @@ class CreateTemposTable extends Migration
     {
         Schema::create('tempos', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
             $table->string('dia');
             $table->string('mes');
             $table->string('ano');
