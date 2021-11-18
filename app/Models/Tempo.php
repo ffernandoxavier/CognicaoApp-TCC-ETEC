@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Tempo extends Model
 {
     use HasFactory;
-    protected $fillable = ['dia', 'mes', 'ano'];
+    protected $fillable = ['dia', 'mes', 'ano','user_id'];
 }
