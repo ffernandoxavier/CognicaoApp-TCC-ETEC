@@ -50,6 +50,6 @@ class User extends Authenticatable
     
     public function tempo()
     {
-        return $this->hasOne(App\Models\Tempo::class);
+        return $this->hasOne(Tempo::class);
     }
 }

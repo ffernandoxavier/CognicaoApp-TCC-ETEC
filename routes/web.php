@@ -78,15 +78,34 @@ Route::get('/agradecimentos', function () {
 })->middleware(['auth'])->name('agradecimentos');
 
 Route::post('/teste2', function (Request $request) {
-    Tempo::create([
+
+
+    // PRA DEBUGAR O REQUEST:
+
+    //o dump exibe na tela... e continua a execução
+    //dump($request->all());
+
+    // dd exibe na tela e para a execução
+    //dd(auth()->user()->name);
+   
+    // Tempo::create([
+    //     'dia' => $request->f_dia,
+    //     'mes'=> $request->f_mes,
+    //     'ano'=>$request->f_ano,
+    //     'user_id'=>auth()->id()
+    // ]);
+
+
+
+    //Dessa maneira, nao precisa colocar o user_id no fillable, pq é o proprio laravel que esta adicionando o user_id
+    auth()->user()->tempo()->create([
         'dia' => $request->f_dia,
         'mes'=> $request->f_mes,
-        'ano'=>$request->f_ano,
-        'user_id'=>auth()->id()
+        'ano'=>$request->f_ano
     ]);
 
     return view('/teste2');
-});
+})->middleware(['auth']);
 
 Route::post('/teste3', function (Request $request) {
     Semana::create([
