@@ -9,4 +9,10 @@ class Tempo extends Model
 {
     use HasFactory;
     protected $fillable = ['dia', 'mes', 'ano'];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
+

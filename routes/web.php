@@ -81,7 +81,8 @@ Route::post('/teste2', function (Request $request) {
     Tempo::create([
         'dia' => $request->f_dia,
         'mes'=> $request->f_mes,
-        'ano'=>$request->f_ano
+        'ano'=>$request->f_ano,
+        'user_id'=>auth()->id()
     ]);
 
     return view('/teste2');

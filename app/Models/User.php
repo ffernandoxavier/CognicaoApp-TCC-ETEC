@@ -47,4 +47,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    
+    public function tempo()
+    {
+        return $this->hasOne(App\Models\Tempo::class);
+    }
 }
