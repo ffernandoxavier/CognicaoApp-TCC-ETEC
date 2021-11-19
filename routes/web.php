@@ -108,23 +108,23 @@ Route::post('/teste2', function (Request $request) {
 })->middleware(['auth']);
 
 Route::post('/teste3', function (Request $request) {
-    Semana::create([
+    auth()->user()->semana()->create([
         'dia' => $request->semana
     ]);
 
     return view('/teste3');
-});
+})->middleware(['auth']);
 
 Route::post('/teste6', function (Request $request) {
-    Frase::create([
+    auth()->user()->frase()->create([
         'frase' => $request->resposta5
     ]);
 
     return view('/teste6');
-});
+})->middleware(['auth']);
 
 Route::post('/teste7', function (Request $request) {
-    Objeto::create([
+    auth()->user()->objeto()->create([
         'res1' => $request->resposta61,
         'res2'=> $request->resposta62,
         'res3'=> $request->resposta63,
@@ -134,10 +134,10 @@ Route::post('/teste7', function (Request $request) {
     ]);
 
     return view('/teste7');
-});
+})->middleware(['auth']);
 
 Route::post('/agradecimentos', function (Request $request) {
-    Cor::create([
+    auth()->user()->cor()->create([
         'cor1' => $request->resposta71,
         'cor2' => $request->resposta81,
         'cor3' => $request->resposta91

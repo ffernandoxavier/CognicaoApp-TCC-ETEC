@@ -9,4 +9,9 @@ class Cor extends Model
 {
     use HasFactory;
     protected $fillable = ['cor1', 'cor2', 'cor3'];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

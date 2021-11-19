@@ -9,4 +9,9 @@ class Semana extends Model
 {
     use HasFactory;
     protected $fillable = ['dia'];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

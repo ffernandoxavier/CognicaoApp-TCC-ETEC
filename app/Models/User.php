@@ -52,4 +52,25 @@ class User extends Authenticatable
     {
         return $this->hasOne(Tempo::class);
     }
+
+    public function semana()
+    {
+        return $this->hasOne(Semana::class);
+    }
+
+    public function objeto()
+    {
+        return $this->hasOne(Objeto::class);
+    }
+
+    public function frase()
+    {
+        return $this->hasOne(Frase::class);
+    }
+
+    public function cor()
+    {
+        return $this->hasOne(Cor::class);
+    }
 }
+

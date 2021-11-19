@@ -9,4 +9,9 @@ class Frase extends Model
 {
     use HasFactory;
     protected $fillable = ['frase'];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
