@@ -36,9 +36,6 @@
                     <a class="nav-link active smoth-scroll" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smoth-scroll" href="instituicao">Instituição</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link smoth-scroll" href="register">Cadastro</a>
                 </li>
                 <li class="nav-item">

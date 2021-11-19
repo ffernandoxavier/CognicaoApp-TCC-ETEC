@@ -10,11 +10,11 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     @can ('userpadrao')
-                    Padrão
-                    @elsecan ('admin')
-                    Sou admin
+                    Por aqui é só, muito obrigado por realizar nosso teste!
                     @elsecan ('usermaster')
                     Sou doutor
+                    @elsecan ('admin')
+                    adm
                     @endcan
                     <br>
                 </div>

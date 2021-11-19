@@ -95,7 +95,7 @@ Route::post('/teste2', function (Request $request) {
     //     'user_id'=>auth()->id()
     // ]);
 
-// preciso commitar
+    // preciso commitar
 
     //Dessa maneira, nao precisa colocar o user_id no fillable, pq é o proprio laravel que esta adicionando o user_id
     auth()->user()->tempo()->create([
