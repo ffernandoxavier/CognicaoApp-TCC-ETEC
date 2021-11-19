@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/estilo.css"> 
 </head>
 <body>
-  <main class="mainagr">
+    <main class="mainagr">
         <p id="textt7">MUITO OBRIGADO POR PARTICIPAR DO NOSSO TESTE!</p>
        <p id="textt7">Você será redirecionado para a página da nossa instituição, para que possa conhecer melhor sobre nós!</p>
     </main>
