@@ -11,8 +11,8 @@
     <main>
         <form name="teste5" action='/agradecimentos' method='post'>
         @csrf
-        <p id="textt7">Você se lembra das cores que pedimos para decorar no ínicio do teste?</p>
-        <p id="textt7">Agora queremos que você escreva as cores na mesma ordem que foi pedido para decorar!</p>
+        <p id="textt8">Você se lembra das cores que pedimos para decorar no ínicio do teste?</p>
+        <p id="textt8">Agora queremos que você escreva as cores na mesma ordem que foi pedido para decorar!</p>
         <input name="resposta71" placeholder="Digite aqui:" required class="div71"/> 
         <input name="resposta81" placeholder="Digite aqui:" required class="div71"/> 
         <input name="resposta91" placeholder="Digite aqui:" required class="div71"/> 
