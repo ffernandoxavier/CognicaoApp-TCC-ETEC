@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Laravel 7 PDF Example</title>
+    <title>Geral</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href=" asset('css/app.css') " rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <div class="container mt-5">
-        <h2 class="text-center mb-3">Laravel HTML to PDF Example</h2>
+        <h2 class="text-center mb-3">Geral</h2>
 
-        <div class="d-flex justify-content-end mb-4">
-            <a class="btn btn-primary" href="/employee/pdf">Export to PDF</a>
-        </div>
+         <div class="d-flex justify-content-end mb-4">
+            <a class="btn btn-primary" href="dashboard">Voltar</a>
+        </div> 
         <table class="table table-bordered mb-5">
             <thead>
                 <tr class="table-danger">
@@ -31,9 +31,9 @@
                     <th scope="row"> {{$user->id}} </th>
                     <td> {{$user->name}} </td>
                     <td> {{$user->email}} </td>
-                    <td><a href="{{ url('/relatorio/' . $user->id ) }}"><button class="btn btn-primary btn-block" type="button"
-                        onclick ="$('#op').prop('value', 'C');
-                        $('#frmusuarios').submit();"
+                    <td><a href="{{ route('relatorio.unico', $user->id) }}">
+                        <button class="btn btn-primary btn-block" type="button"
+                        onclick ="$('#op').prop('value', 'C');$('#frmusuarios').submit();"
                         name="btnconsultar">Consultar</button>
                         </a></td>
                 </tr>

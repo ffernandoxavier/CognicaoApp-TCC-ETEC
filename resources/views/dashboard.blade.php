@@ -12,7 +12,7 @@
                     @can ('userpadrao')
                     Você já realizou seu teste, muito obrigado!
                     @elsecan ('usermaster')
-                    Sou doutor
+                    <a href="pdf">Ver relatórios</a>
                     @elsecan ('admin')
                     adm
                     @endcan

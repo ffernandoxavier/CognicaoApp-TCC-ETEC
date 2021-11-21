@@ -34,11 +34,9 @@ Route::get('instituicao', function () {
     return view('instituicao');
 });
 
-Route::get('/pdf', [UserController::class, 'showEmployees']);
+Route::get('/pdf', [UserController::class, 'showEmployees'])->name('relatorio.geral');
 
-Route::get('/employee/pdf', 'App\Http\Controllers\UserController@createPDF');
-
-Route::get('/relatorio/{$id}', [UserController::class, 'showUnique']);
+Route::get('/relatorio/{id}', [UserController::class, 'showUnique'])->name('relatorio.unico');
 
 
 /*

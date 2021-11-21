@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title')</title>
+        <title>Mapeiamente</title>
 
         <!--FONTES DA APLICAÇÃO-->
         <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
