@@ -6,6 +6,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "barryvdh/laravel-dompdf": "^0.9.0",
+        "dompdf/dompdf": "^1.1",
         "fruitcake/laravel-cors": "^2.0",
         "geekcom/validator-docs": "^3.5",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -33,6 +35,7 @@
             "Database\\Seeders\\": "database/seeders/"
         }
     },
+
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"

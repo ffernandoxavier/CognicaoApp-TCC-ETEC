@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Teste1Controller;
+use App\Http\Controllers\UserController;
 use App\Models\Tempo;
 use App\Models\Semana;
 use Illuminate\Contracts\Cache\Store;
@@ -20,6 +21,8 @@ use App\Models\Cor;
 | contains the "web" middleware group. Now create something great!
 
 Teste
+
+Route::get('pdf', 'App\Http\Controllers\GpdfController@showEMployee');
 |
 */
 
@@ -30,6 +33,19 @@ Route::get('/', function () {
 Route::get('instituicao', function () {
     return view('instituicao');
 });
+
+Route::get('/pdf', [UserController::class, 'showEmployees']);
+
+Route::get('/employee/pdf', 'App\Http\Controllers\UserController@createPDF');
+
+Route::get('/relatorio/{$id}', [UserController::class, 'showUnique']);
+
+
+/*
+Route::get('/relatorio/{flag}', function ($flag){
+    return  "User: {$flag}";
+});
+*/
 
 Route::get('register', function () {
     return view('register');
